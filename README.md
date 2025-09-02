@@ -9,3 +9,5 @@ To streamline this process, I created a Python algorithm that automatically chec
 ## Open the file that contains the allow list
 
 To begin, I stored the filename in a variable called `import_file`:
+
+![Python code to open a file](images/Step1.png)
