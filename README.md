@@ -1,9 +1,16 @@
-# Algorithm-for-file-updates-in-Python
+# Python IP Allow-List Updates
 
+A Python coursework walkthrough for a simulated healthcare organisation. The algorithm removes specified IP addresses from an allow-list file; screenshots document each step.
+
+**Skills:** Python, file I/O, lists, automation
+
+## Project context
+
+This repository presents an educational exercise. References to organisations and incidents describe the exercise scenario, not professional employment or a client engagement.
 
 ## Project description
 
-At a healthcare company, I was responsible for keeping access to sensitive patient data secure. Access was controlled through a file called `allow_list.txt`, which stored the IP addresses of employees permitted to log into a restricted subnetwork. A separate remove list identified employees who should no longer have access.
+In the exercise's healthcare scenario, I was tasked with for keeping access to sensitive patient data secure. Access was controlled through a file called `allow_list.txt`, which stored the IP addresses of employees permitted to log into a restricted subnetwork. A separate remove list identified employees who should no longer have access.
 To streamline this process, I created a Python algorithm that automatically checked the `allow_list` against the `remove_list`. The script removed any IP addresses that appeared in both lists and updated the `allow_list` file with only the approved entries
 
 
@@ -80,4 +87,6 @@ In this project, I built a Python algorithm that automatically updates a file of
 - Converting the updated list back into a string with `.join()`.
 - Writing the revised list back to the file with `.write()`.
 
-This algorithm keeps the allow list accurate and reduces the chance of human error, ensuring that sensitive healthcare data remains accessible only to the right employees.
+The exercise demonstrates automating a text-file update. Updating the file alone does not enforce network access; that depends on the system consuming the allow list.
+
+[Back to my portfolio](https://github.com/aaraf18)
